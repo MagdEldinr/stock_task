@@ -8,7 +8,7 @@ class Stock(models.Model):
     daily_lowest_price = models.IntegerField(default=0)
     hourly_highest_price = models.IntegerField(default=0)
     hourly_lowest_price = models.IntegerField(default=0)
-    name = models.CharField(max_length=32, unique=True)
+    name = models.CharField(max_length=32)
     availability = models.IntegerField(validators=[
             MinValueValidator(0)
         ])
