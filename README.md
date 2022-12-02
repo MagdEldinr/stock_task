@@ -82,3 +82,6 @@
 | `upper_bound` | `int` | **Required**. Max value stock can be bought with |
 | `lower_bound` | `int` | **Required**. Min value stock can be bought with |
 
+## API Reference
+
+You will find .png file called `ERD`
