@@ -4,7 +4,7 @@
 **Language:** Python\
 **FrameWork:** DRF\
 **Messaging:** vernemq\
-**DB:** SQLLite
+**DB:** sqlite
 
 
 
