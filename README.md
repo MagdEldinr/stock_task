@@ -4,7 +4,7 @@
 **Language:** Python\
 **FrameWork:** DRF\
 **Messaging:** vernemq\
-**DB:** SQLLite
+**DB:** sqlite
 
 
 
@@ -81,4 +81,8 @@
 | `total` | `int` | **Required**. Count of stock to be bought |
 | `upper_bound` | `int` | **Required**. Max value stock can be bought with |
 | `lower_bound` | `int` | **Required**. Min value stock can be bought with |
+
+## ERD
+
+![ERD](https://user-images.githubusercontent.com/30691308/205324103-450a7291-9972-4448-838a-faf60f8e4da0.png)
 
